@@ -50,16 +50,16 @@ public:
     cout<<" "<<endl;
 }
 
-// HERE I USED CONST QUALIFIER IN THIS FUNCTION TO AVOID UNNECESSARY VALUE CHANGE
-    double Bal()const{
+
+    double Bal(){
         return bal;
     }
 
-    int Accnum()const{
+    int Accnum(){
         return accnum;
     }
 
-    int GP()const{
+    int GP(){
         return pin;
     }
 
@@ -67,7 +67,7 @@ public:
         return wrong++;
     }
 
-    int Wrong()const{
+    int Wrong(){
         return wrong;
     }
 };
