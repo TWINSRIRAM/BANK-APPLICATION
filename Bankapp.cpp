@@ -263,7 +263,7 @@ int main() {
             }
 
         
-        cout << "Do you want to continue? yes or no (Y/N): ";
+        cout << "Do you want to goahead the Transaction process ? yes or no [Y/N]: ";
         cin >>r;
         }while(choice!=5 && toupper(r)=='Y');
          cout << "Exiting program.\n";
